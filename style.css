@@ -17,6 +17,8 @@ h1{
 }
 .flexible-container{
     display: flex;
+   
+    padding-bottom: 5%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -29,7 +31,7 @@ body{
 .button-link-style{
     color: white;
     text-decoration: none;
-        font-weight: 800;
+    font-weight: 800;
     border-radius: 5%;
     padding: 10px 40px;
     background-image: linear-gradient(orange , tomato);
@@ -42,4 +44,32 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.half-width-experience{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    text-align: justify;
+    border-radius: 5px;
+}
+.experience1{
+    border-left: 10px solid;
+    border-image:linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+.experience2{
+    border-left: 10px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+h2{
+    font-size: 30px;
+}
+.experience-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
