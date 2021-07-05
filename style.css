@@ -1,0 +1,13 @@
+.orange{
+    color: orange;
+}
+h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    
+}
+.flexible-container{
+    display: flex;
+}
